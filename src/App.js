@@ -11,19 +11,19 @@ import Reviewser from './components/Reviewser/Reviewser';
 function App() {
   return (
     <div >
-    <Header></Header>   
- 
-    <Routes>
-      <Route path='/' element={<Home></Home>}></Route>
-      <Route path='/home' element={<Home></Home>}></Route>
-      <Route path='/reviews' element={<Reviewser></Reviewser>}></Route>
-       <Route path='dashboard' element={<DashBoard></DashBoard>}></Route>
-         <Route path='/blog' element={<Blogs></Blogs>}></Route>
-   
+      <Header></Header>
 
-      <Route path='*' element={<Notfound></Notfound>}></Route>
+      <Routes>
+        <Route path='/' element={<Home></Home>}></Route>
+        <Route path='/home' element={<Home></Home>}></Route>
+        <Route path='/reviews' element={<Reviewser></Reviewser>}></Route>
+        <Route path='dashboard' element={<DashBoard></DashBoard>}></Route>
+        <Route path='/blog' element={<Blogs></Blogs>}></Route>
 
-    </Routes>
+
+        <Route path='*' element={<Notfound></Notfound>}></Route>
+
+      </Routes>
     </div>
   );
 }

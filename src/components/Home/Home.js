@@ -17,7 +17,7 @@ const Home = () => {
                     <h1 >Your best Car</h1>
                     <h1 className='home-heading'>Your next Car</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit maxime alias eligendi laboriosam nam architecto reiciendis delectus quas a eos porro quibusdam molestiae provident, suscipit aliquam, sunt sit molestias saepe.</p>
-                    <Link to='/reviews'><button className='btn-home'>Live demo</button></Link>
+                    <Link to=''><button className='btn-home'>Live demo</button></Link>
                 </div>
                 <div className='img-contianer'>
                     <img src={img} alt="" />
@@ -35,8 +35,14 @@ const Home = () => {
                     {
                         products.map(product => <Reviews
                             product={product}
+                          
                         ></Reviews>)
                     }
+                    <div style={{display:"flex" ,justifyContent:'center'}}>
+
+                    </div>
+                    <Link to='/reviews' >  <button  className='btn-home'>Hire me</button></Link>
+              
                 </div>
             </div>
         </div>

@@ -1,5 +1,11 @@
 # Getting Started with Create React App
 
+ This will create a bullet point list in your markdown
+ Markup : * Bullet list
+              * Nested bullet
+                  * Sub-nested bullet etc
+          * Bullet list item 2
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

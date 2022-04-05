@@ -1,8 +1,8 @@
 
 import './Reviws.css'
 
-const Reviews = ({ product }) => {
-    const { img, name, comment, rathings } = product;
+const Reviews = (props) => {
+    const { img, name, comment, rathings } = props.product;
    
     return (
         <div className='comment-contianer'>
@@ -12,6 +12,7 @@ const Reviews = ({ product }) => {
                 <h4 className='cart-info'>Rathings:{rathings}</h4>
 
                 <p>{comment}</p>
+          
 
 
             </div>

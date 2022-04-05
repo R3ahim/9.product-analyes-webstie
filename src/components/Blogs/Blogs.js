@@ -39,9 +39,9 @@ const Blogs = () => {
             <br />
             <span className="span-inline">Inline-block:</span> Displays an element as an inline-level block container. You CAN set height and width values.. It's essentially the same thing as inline, except that you can set height and width values.nline-block allows to set a width and height on the element. Also, with display: inline-block , the top and bottom margins/paddings are respected, but with display: inline they are not;  below top img there is exapme of inline-block element;
             <br />
-               <span>Inline element</span>:are a,abbr b,bdo, br,sub ,textarea,time,var,small,sleect,script,sapn,button,i etc
+               <span style={{fontSize:'2rem'}}>Inline element:</span>are a,abbr b,bdo, br,sub ,textarea,time,var,small,sleect,script,sapn,button,i etc
                <br />
-               <span className="span-inline">Inline block element :</span> inline element style <code>display:inline-block</code> goint to inlineBlock . below img example of inline-block
+               <span style={{fontSize:'2em'}}>Inline block element :</span> inline element style <code>display:inline-block</code> goint to inlineBlock . below img example of inline-block
                 </p>
             </div>
         </div>

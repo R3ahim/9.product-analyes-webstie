@@ -9,7 +9,7 @@ const Reviews = (props) => {
             <div className='reviw-info'>
                 <img src={img} alt="" />
                 <h2 className='cart-info'>{name}</h2>
-                <h4 className='cart-info'>Rathings:{rathings}</h4>
+                <h4 className='cart-info'>Rathings: <span style={{color:'rebeccapurple'}}>{rathings}</span></h4>
 
                 <p>{comment}</p>
           

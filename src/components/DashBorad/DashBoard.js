@@ -8,7 +8,10 @@ const DashBoard = () => {
     return (
         <div>
         <div  className='dash-header'>
-            <h1>OUR achivement</h1>
+            <h2>Daily Treeding info</h2>
+            <p>Our daily order minimum 50m car. it is the biggest achimnet for us </p>
+            <br />
+            
         </div>
             
 

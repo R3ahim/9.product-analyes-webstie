@@ -8,7 +8,9 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
     const [products, setProducts] = useProducts();
-
+    
+        const partProducts =products.slice(0,3);
+       
     return (
         <div >
             <div className='home-contianer'>
@@ -31,9 +33,9 @@ const Home = () => {
                 <h1 style={{ textAlign: 'center' }}>Happy Client says</h1>
 
                 <div className='client-contianer'>
-
+                     
                     {
-                        products.map(product => <Reviews
+                        partProducts.map(product => <Reviews
                             product={product}
                           
                         ></Reviews>)
@@ -41,7 +43,7 @@ const Home = () => {
                     <div style={{display:"flex" ,justifyContent:'center'}}>
 
                     </div>
-                    <Link to='/reviews' >  <button  className='btn-home'>Hire me</button></Link>
+                    <Link to='/reviews' >  <button  className='btn-home'>See All Reviews</button></Link>
               
                 </div>
             </div>

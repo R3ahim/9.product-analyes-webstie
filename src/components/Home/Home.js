@@ -18,8 +18,9 @@ const Home = () => {
                 <div className='text-contianer'>
                     <h1 >Your best Car</h1>
                     <h1 className='home-heading'>Your next Car</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit maxime alias eligendi laboriosam nam architecto reiciendis delectus quas a eos porro quibusdam molestiae provident, suscipit aliquam, sunt sit molestias saepe.</p>
-                   
+                    <p  style={{margin:'0'}}>Welcome to world Biggest car website ! Don't be cofuse to Which car you can buy </p>                   
+                    <p style={{margin:'0'}}>You can choose any one ! You will get answer very soon</p>
+                    <p>You can scrool discover a car that you math your self</p>
                 </div>
                 <div className='img-contianer'>
                     <img src={img} alt="" />
